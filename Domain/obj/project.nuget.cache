@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nPLItml4ASh5whySVseHvhddENE94fhtA/6rDeDn5VR+XjWdlAJG839Lu+FPa0AbB0owwxb4NQyp4MUynubVGQ==",
+  "dgSpecHash": "A6APMqRRS+mnU8KpMkQGrIeqQwiETsfgUVEkwr3Bm4eOGnPuuJb+6g+u7z2H9lkcIbX4Ov9BjM5zO87PME1i+A==",
   "success": true,
-  "projectFilePath": "D:\\Kim\\School\\jaar_4\\KiCoKalender_v2\\Domain\\Domain.csproj",
+  "projectFilePath": "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kimbe\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.4\\microsoft.aspnet.webapi.client.5.2.4.nupkg.sha512",
     "C:\\Users\\kimbe\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.1.0\\microsoft.aspnetcore.authentication.abstractions.2.1.0.nupkg.sha512",

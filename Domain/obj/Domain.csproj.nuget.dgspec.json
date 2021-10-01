@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Kim\\School\\jaar_4\\KiCoKalender_v2\\Domain\\Domain.csproj": {}
+    "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "D:\\Kim\\School\\jaar_4\\KiCoKalender_v2\\Domain\\Domain.csproj": {
+    "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Kim\\School\\jaar_4\\KiCoKalender_v2\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Kim\\School\\jaar_4\\KiCoKalender_v2\\Domain\\Domain.csproj",
+        "projectPath": "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\kimbe\\.nuget\\packages\\",
-        "outputPath": "D:\\Kim\\School\\jaar_4\\KiCoKalender_v2\\Domain\\obj\\",
+        "outputPath": "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kimbe\\AppData\\Roaming\\NuGet\\NuGet.Config",

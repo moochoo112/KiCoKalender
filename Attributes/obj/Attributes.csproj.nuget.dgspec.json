@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Kim\\School\\jaar_4\\KiCoKalender_v2\\Attributes\\Attributes.csproj": {}
+    "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\Attributes\\Attributes.csproj": {}
   },
   "projects": {
-    "D:\\Kim\\School\\jaar_4\\KiCoKalender_v2\\Attributes\\Attributes.csproj": {
+    "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\Attributes\\Attributes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Kim\\School\\jaar_4\\KiCoKalender_v2\\Attributes\\Attributes.csproj",
+        "projectUniqueName": "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\Attributes\\Attributes.csproj",
         "projectName": "Attributes",
-        "projectPath": "D:\\Kim\\School\\jaar_4\\KiCoKalender_v2\\Attributes\\Attributes.csproj",
+        "projectPath": "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\Attributes\\Attributes.csproj",
         "packagesPath": "C:\\Users\\kimbe\\.nuget\\packages\\",
-        "outputPath": "D:\\Kim\\School\\jaar_4\\KiCoKalender_v2\\Attributes\\obj\\",
+        "outputPath": "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\Attributes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kimbe\\AppData\\Roaming\\NuGet\\NuGet.Config",

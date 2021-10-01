@@ -1,17 +1,95 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Kim\\School\\jaar_4\\KiCoKalender_v2\\Service\\Service.csproj": {}
+    "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\Service\\Service.csproj": {}
   },
   "projects": {
-    "D:\\Kim\\School\\jaar_4\\KiCoKalender_v2\\Domain\\Domain.csproj": {
+    "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Kim\\School\\jaar_4\\KiCoKalender_v2\\Domain\\Domain.csproj",
-        "projectName": "Domain",
-        "projectPath": "D:\\Kim\\School\\jaar_4\\KiCoKalender_v2\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\kimbe\\.nuget\\packages\\",
-        "outputPath": "D:\\Kim\\School\\jaar_4\\KiCoKalender_v2\\Domain\\obj\\",
+        "outputPath": "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kimbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\kimbe\\.nuget\\packages\\",
+        "outputPath": "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kimbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -76,14 +154,14 @@
         }
       }
     },
-    "D:\\Kim\\School\\jaar_4\\KiCoKalender_v2\\Repository\\Repository.csproj": {
+    "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Kim\\School\\jaar_4\\KiCoKalender_v2\\Repository\\Repository.csproj",
+        "projectUniqueName": "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "D:\\Kim\\School\\jaar_4\\KiCoKalender_v2\\Repository\\Repository.csproj",
+        "projectPath": "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\kimbe\\.nuget\\packages\\",
-        "outputPath": "D:\\Kim\\School\\jaar_4\\KiCoKalender_v2\\Repository\\obj\\",
+        "outputPath": "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kimbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -100,8 +178,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Kim\\School\\jaar_4\\KiCoKalender_v2\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Kim\\School\\jaar_4\\KiCoKalender_v2\\Domain\\Domain.csproj"
+              "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\DAL\\DAL.csproj"
+              },
+              "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\Domain\\Domain.csproj"
               }
             }
           }
@@ -140,14 +221,14 @@
         }
       }
     },
-    "D:\\Kim\\School\\jaar_4\\KiCoKalender_v2\\Service\\Service.csproj": {
+    "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Kim\\School\\jaar_4\\KiCoKalender_v2\\Service\\Service.csproj",
+        "projectUniqueName": "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "D:\\Kim\\School\\jaar_4\\KiCoKalender_v2\\Service\\Service.csproj",
+        "projectPath": "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\Service\\Service.csproj",
         "packagesPath": "C:\\Users\\kimbe\\.nuget\\packages\\",
-        "outputPath": "D:\\Kim\\School\\jaar_4\\KiCoKalender_v2\\Service\\obj\\",
+        "outputPath": "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kimbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -164,11 +245,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Kim\\School\\jaar_4\\KiCoKalender_v2\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Kim\\School\\jaar_4\\KiCoKalender_v2\\Domain\\Domain.csproj"
+              "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\Domain\\Domain.csproj"
               },
-              "D:\\Kim\\School\\jaar_4\\KiCoKalender_v2\\Repository\\Repository.csproj": {
-                "projectPath": "D:\\Kim\\School\\jaar_4\\KiCoKalender_v2\\Repository\\Repository.csproj"
+              "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\Repository\\Repository.csproj": {
+                "projectPath": "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\Repository\\Repository.csproj"
               }
             }
           }

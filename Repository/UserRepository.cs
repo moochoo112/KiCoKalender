@@ -1,4 +1,5 @@
-﻿using Domain;
+﻿using DAL;
+using Domain;
 using Microsoft.Extensions.Logging;
 using System.Threading.Tasks;
 
@@ -7,22 +8,25 @@ namespace Repository
     public class UserRepository
     {
         ILogger Logger { get; }
-
-        public UserRepository(ILogger<UserRepository> Logger)
+        private readonly KiCoKalenderContext _kiCoContext;
+        public UserRepository(ILogger<UserRepository> Logger, KiCoKalenderContext kiCoContext)
         {
             this.Logger = Logger;
+            _kiCoContext = kiCoContext;
         }
 
         public async Task<User> FindUserById(long? userId)
         {
-            User user = new User();
-            Logger.LogInformation("Found user by id: "+ userId);
 
-            return user;
+            User foundUser = _kiCoContext.User.Find(userId);
+            Logger.LogInformation("Found user by id: "+ userId);
+            return foundUser;
         }
 
         public async void AddUser(User user)
         {
+            _kiCoContext.User.Add(user);
+            _kiCoContext.SaveChanges();
             Logger.LogInformation("Inserted user");
         }
 
@@ -39,6 +43,9 @@ namespace Repository
         }
         public async void DeleteUser(long? userId)
         {
+            User foundUser = _kiCoContext.User.Find(userId);
+            _kiCoContext.User.Remove(foundUser);
+            _kiCoContext.SaveChanges();
             Logger.LogInformation("Deleted user with id: " + userId);
         }
     }

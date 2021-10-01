@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mTmzdsW7CZ3KAqu+8hSXlhdDHQ6VxjNAc2MTZE4x2sshGMaPT0crsznDiaU72eTVtThTH8ZxL5F5OJ3AOI+wHQ==",
+  "dgSpecHash": "trPoOuyNvcfWCAdSSt9pLJjJZd1usSf2YN55go51W3XeZzmLlD+myp7O9jZGCFmnb0Dj5fGkMYV73JqeHxfqOg==",
   "success": true,
-  "projectFilePath": "D:\\Kim\\School\\jaar_4\\KiCoKalender_v2\\DAL\\DAL.csproj",
+  "projectFilePath": "D:\\Kim\\School\\jaar_4\\Project\\KiCoKalender\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kimbe\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\kimbe\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.4\\microsoft.aspnet.webapi.client.5.2.4.nupkg.sha512",

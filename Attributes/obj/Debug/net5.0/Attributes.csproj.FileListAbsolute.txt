@@ -10,3 +10,15 @@ D:\Kim\School\jaar_4\KiCoKalender_v2\Attributes\obj\Debug\net5.0\Attributes.cspr
 D:\Kim\School\jaar_4\KiCoKalender_v2\Attributes\obj\Debug\net5.0\Attributes.dll
 D:\Kim\School\jaar_4\KiCoKalender_v2\Attributes\obj\Debug\net5.0\ref\Attributes.dll
 D:\Kim\School\jaar_4\KiCoKalender_v2\Attributes\obj\Debug\net5.0\Attributes.pdb
+D:\Kim\School\jaar_4\Project\KiCoKalender\Attributes\bin\Debug\net5.0\Attributes.deps.json
+D:\Kim\School\jaar_4\Project\KiCoKalender\Attributes\bin\Debug\net5.0\Attributes.dll
+D:\Kim\School\jaar_4\Project\KiCoKalender\Attributes\bin\Debug\net5.0\ref\Attributes.dll
+D:\Kim\School\jaar_4\Project\KiCoKalender\Attributes\bin\Debug\net5.0\Attributes.pdb
+D:\Kim\School\jaar_4\Project\KiCoKalender\Attributes\obj\Debug\net5.0\Attributes.csproj.AssemblyReference.cache
+D:\Kim\School\jaar_4\Project\KiCoKalender\Attributes\obj\Debug\net5.0\Attributes.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kim\School\jaar_4\Project\KiCoKalender\Attributes\obj\Debug\net5.0\Attributes.AssemblyInfoInputs.cache
+D:\Kim\School\jaar_4\Project\KiCoKalender\Attributes\obj\Debug\net5.0\Attributes.AssemblyInfo.cs
+D:\Kim\School\jaar_4\Project\KiCoKalender\Attributes\obj\Debug\net5.0\Attributes.csproj.CoreCompileInputs.cache
+D:\Kim\School\jaar_4\Project\KiCoKalender\Attributes\obj\Debug\net5.0\Attributes.dll
+D:\Kim\School\jaar_4\Project\KiCoKalender\Attributes\obj\Debug\net5.0\ref\Attributes.dll
+D:\Kim\School\jaar_4\Project\KiCoKalender\Attributes\obj\Debug\net5.0\Attributes.pdb
