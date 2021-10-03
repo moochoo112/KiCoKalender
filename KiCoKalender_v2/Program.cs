@@ -32,6 +32,8 @@ namespace KiCoKalender_v2
 			Services.AddSingleton<IOpenApiHttpTriggerContext, OpenApiHttpTriggerContext>();
 			Services.AddSingleton<IOpenApiTriggerFunction, OpenApiTriggerFunction>();
 			Services.AddSingleton<IUserService, UserService>();
+			Services.AddSingleton<IAppointmentService, AppointmentService>();
+			Services.AddSingleton<AppointmentRepository>();
 			Services.AddSingleton<UserRepository>();
 		}
 

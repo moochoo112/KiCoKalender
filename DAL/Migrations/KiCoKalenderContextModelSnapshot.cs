@@ -19,6 +19,57 @@ namespace DAL.Migrations
                 .HasAnnotation("ProductVersion", "5.0.10")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("Domain.Appointment", b =>
+                {
+                    b.Property<long?>("appointmentId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<bool>("AppointmentAccepted")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("AppointmentDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("AppointmentDescription")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("AppointmentPrivate")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("appointmentName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<long?>("userId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("appointmentId");
+
+                    b.ToTable("Appointment");
+                });
+
+            modelBuilder.Entity("Domain.Family", b =>
+                {
+                    b.Property<long?>("familyId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<long?>("childrenIds")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("familyName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<long?>("parentIds")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("familyId");
+
+                    b.ToTable("Family");
+                });
+
             modelBuilder.Entity("Domain.User", b =>
                 {
                     b.Property<long?>("userId")
@@ -35,7 +86,10 @@ namespace DAL.Migrations
                     b.Property<DateTime>("userCreated")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("userName")
+                    b.Property<string>("userFirstName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("userLastName")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("userRole")

@@ -1,6 +1,7 @@
 ﻿using DAL;
 using Domain;
 using Microsoft.Extensions.Logging;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace Repository
@@ -32,7 +33,7 @@ namespace Repository
 
         public async Task<User> FindUserByName(string name)
         {
-            User user = new User() { userId = 33, userName = "Dirk Dirksma", userRole = Role.Parent };
+            User user = _kiCoContext.User.SingleOrDefault(m => m.userFirstName == name);
             Logger.LogInformation("Found user by name: "+ name);
 
             return user;

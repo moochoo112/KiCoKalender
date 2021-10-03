@@ -8601,7 +8601,8 @@
     "net5.0": [
       "DAL >= 1.0.0",
       "Domain >= 1.0.0",
-      "Microsoft.Extensions.Logging.Abstractions >= 5.0.0"
+      "Microsoft.Extensions.Logging.Abstractions >= 5.0.0",
+      "System.Linq >= 4.3.0"
     ]
   },
   "packageFolders": {
@@ -8653,6 +8654,10 @@
           "Microsoft.Extensions.Logging.Abstractions": {
             "target": "Package",
             "version": "[5.0.0, )"
+          },
+          "System.Linq": {
+            "target": "Package",
+            "version": "[4.3.0, )"
           }
         },
         "imports": [

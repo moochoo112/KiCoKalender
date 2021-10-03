@@ -15,7 +15,11 @@ namespace Domain
 
         [OpenApiProperty(Description = "Gets or sets the name.")]
         [JsonRequired]
-        public string userName { get; set; }
+        public string userFirstName { get; set; }
+
+        [OpenApiProperty(Description = "Gets or sets the name.")]
+        [JsonRequired]
+        public string userLastName { get; set; }
 
         [OpenApiProperty(Description = "Gets or sets the age.")]
         [JsonRequired]
@@ -40,10 +44,11 @@ namespace Domain
 
         }
 
-        public User(long? userId, string userName, int userAge, Role userRole)
+        public User(long? userId, string userFirstName, string userLastName, int userAge, Role userRole)
         {
             this.userId = userId;
-            this.userName = userName;
+            this.userFirstName = userFirstName;
+            this.userLastName = userLastName;
             this.userAge = userAge;
             this.userRole = userRole;
 
@@ -56,7 +61,7 @@ namespace Domain
     {
         public override IOpenApiExample<User> Build(NamingStrategy NamingStrategy = null)
         {
-            Examples.Add(OpenApiExampleResolver.Resolve("Dirk", "This is Dirk's summary", new User() { userId = 101, userName = "Dirk Dirksma", userRole = Role.Parent, userAge = 20, userAddress = "street", userZipcode = "1234AB", userCreated = DateTime.Now }, NamingStrategy));
+            Examples.Add(OpenApiExampleResolver.Resolve("Dirk", "This is Dirk's summary", new User() {userFirstName = "Dirk", userLastName = "Dirksma",userRole = Role.Parent, userAge = 20, userAddress = "street", userZipcode = "1234AB", userCreated = DateTime.Now }, NamingStrategy));
 
             return this;
         }

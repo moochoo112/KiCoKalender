@@ -2739,7 +2739,8 @@
         "dependencies": {
           "DAL": "1.0.0",
           "Domain": "1.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "5.0.0"
+          "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
+          "System.Linq": "4.3.0"
         },
         "compile": {
           "bin/placeholder/Repository.dll": {}

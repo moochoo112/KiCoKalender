@@ -8,12 +8,8 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Newtonsoft.Json;
 using Service.Interfaces;
-using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Net;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace KiCoKalender_v2
@@ -109,7 +105,7 @@ namespace KiCoKalender_v2
 			// Generate output
 			HttpResponseData response = req.CreateResponse(HttpStatusCode.OK);
 
-			if (user == null)
+			if (user is null)
 			{
 				response = req.CreateResponse(HttpStatusCode.BadRequest);
 			}
@@ -143,7 +139,7 @@ namespace KiCoKalender_v2
 			// Generate output
 			HttpResponseData response = req.CreateResponse(HttpStatusCode.OK);
 
-			if (user == null)
+			if (user is null)
 			{
 				response = req.CreateResponse(HttpStatusCode.BadRequest);
 			}
@@ -174,7 +170,7 @@ namespace KiCoKalender_v2
 
 			// Generate output
 			HttpResponseData response = req.CreateResponse(HttpStatusCode.OK);
-			Logger.LogInformation("Found user by id: " + userId);
+
 			if (!userId.HasValue)
 			{
 				response = req.CreateResponse(HttpStatusCode.BadRequest);
